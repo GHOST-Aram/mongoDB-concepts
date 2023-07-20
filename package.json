@@ -5,12 +5,16 @@
   "main": "script.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon script.js"
   },
   "keywords": [],
   "author": "ghost-aram <owinoojala254@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "mongoose": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
